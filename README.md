@@ -106,3 +106,16 @@ We have provided test data for all the resources.
 -   From the React application show a list of all _projects_ using the API you built.
 -   Add functionality to show the details of a project, including its actions, when clicking a project name in the list. Use React Router to navigate to a separate route to show the project details.
 -   Add styling!
+
+## Interview Questions
+
+- The core features of Node.js and Express and why they are useful. 
+    You are able to create asynchronous programming, which allows for multiple operations to be executed independently of eachother
+- Understand and explain the use of Middleware?
+    Express middleware are functions that execute during the lifecycle of a request to the Express server.
+- The basic principles of the REST architectural style.
+    Client, server and any intermediary components can all cache resources and use a uniform interface between components.
+- Understand and explain the use of Express Routers.
+    Express router is a class which helps us to create router handlers. By router handler i mean to not just providing routing to our app but also can extend this routing to handle validation, handle 404 or other errors etc
+- Describe tooling used to manually test the correctness of an API.
+    tooling such as insomnia or postman are used so that you can test out things like Post/Put/Delete calls which you are not able to use a browser for
